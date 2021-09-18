@@ -1,3 +1,5 @@
+gatsby-config.js
 node_modules/
 .cache/
 public
+dev/

@@ -5,13 +5,29 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: "gatsby-source-contentful",
+      resolve: `gatsby-plugin-typescript`,
       options: {
-        accessToken: "\u0016",
-        spaceId: "\u0016",
+        isTSX: true,
+        jsxPragma: `jsx`,
+        allExtensions: true,
       },
     },
-    "gatsby-plugin-theme-ui",
+    {
+      resolve: `gatsby-plugin-emotion`,
+      options: {
+        sourceMap: true,
+        autoLabel: "dev-only",
+        labelFormat: `[local]`,
+        cssPropOptimization: true,
+      },
+    },
+    {
+      resolve: "gatsby-source-contentful",
+      options: {
+        accessToken: "omvGYCQR-0wEWW9SRjW-_ZOYATlb_EA5TZlhW8-aNPw",
+        spaceId: "aglr8juj2van",
+      },
+    },
     "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-plugin-manifest",

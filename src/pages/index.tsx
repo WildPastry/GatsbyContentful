@@ -5,48 +5,54 @@ const pageStyles = {
   color: "#232129",
   padding: 96,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
+} as React.CSSProperties
+
 const headingStyles = {
   marginTop: 0,
   marginBottom: 64,
   maxWidth: 320,
-}
+} as React.CSSProperties
+
 const headingAccentStyles = {
   color: "#663399",
-}
+} as React.CSSProperties
+
 const paragraphStyles = {
   marginBottom: 48,
-}
+} as React.CSSProperties
+
 const codeStyles = {
   color: "#8A6534",
   padding: 4,
   backgroundColor: "#FFF4DB",
   fontSize: "1.25rem",
   borderRadius: 4,
-}
+} as React.CSSProperties
+
 const listStyles = {
   marginBottom: 96,
   paddingLeft: 0,
-}
+} as React.CSSProperties
+
 const listItemStyles = {
   fontWeight: 300,
   fontSize: 24,
   maxWidth: 560,
   marginBottom: 30,
-}
+} as React.CSSProperties
 
 const linkStyle = {
   color: "#8954A8",
   fontWeight: "bold",
   fontSize: 16,
   verticalAlign: "5%",
-}
+} as React.CSSProperties
 
 const docLinkStyle = {
   ...linkStyle,
   listStyleType: "none",
   marginBottom: 24,
-}
+} as React.CSSProperties
 
 const descriptionStyle = {
   color: "#232129",
@@ -54,7 +60,7 @@ const descriptionStyle = {
   marginTop: 10,
   marginBottom: 0,
   lineHeight: 1.25,
-}
+} as React.CSSProperties
 
 const docLink = {
   text: "Documentation",
@@ -76,7 +82,7 @@ const badgeStyle = {
   top: -2,
   marginLeft: 10,
   lineHeight: 1,
-}
+} as React.CSSProperties
 
 // data
 const links = [

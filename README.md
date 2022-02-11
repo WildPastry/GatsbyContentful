@@ -6,3 +6,6 @@ Gatsby template linked to Contentful CMS.
 **Gatsby** <br>
 **React** <br>
 **Typescript** <br>
+**Graph QL** <br>
+**Theme UI** <br>
+**Contentful** <br>

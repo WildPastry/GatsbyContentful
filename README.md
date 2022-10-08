@@ -1,5 +1,5 @@
 # GatsbyContentfulTypescript
-Gatsby template linked to Contentful CMS.
+Gatsby template linked to Contentful CMS
 
 ## Development info
 

@@ -5,7 +5,7 @@ Gatsby React Frontend with Contentful CMS Backend
 
 * **Gatsby** <br>
 * **Contentful** <br>
-* **Typescript** <br>
+* **TypeScript** <br>
 * **Graph QL** <br>
 * **Theme UI** <br>
 * **React** <br>

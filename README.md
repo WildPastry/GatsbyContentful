@@ -1,7 +1,7 @@
 # GatsbyContentful
 Gatsby React Frontend with Contentful CMS Backend
 
-## Development info
+## Development
 
 * **Gatsby** <br>
 * **Contentful** <br>

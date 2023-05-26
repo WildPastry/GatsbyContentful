@@ -1,11 +1,8 @@
 name: Bump versions
-run-name: Bump versions | ${{ github.actor }} | ${{ github.ref_name }}
+run-name: Bump versions | ${{ github.run_id }} | branch - ${{ github.ref_name }}
 
 on:
   workflow_dispatch:
-    branch:
-      default: "develop"
-
 jobs:
   bump-versions:
     runs-on: ubuntu-latest
@@ -51,7 +48,7 @@ jobs:
         run: |
           npm i --force
           git add .
-          git commit -S -m "Automated version control"
+          git commit -m "Automated version control"
           git push origin ${{ github.ref_name }}
           GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}"
             REPO_OWNER="${{ github.repository_owner }}"

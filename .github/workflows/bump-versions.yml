@@ -1,5 +1,5 @@
 name: Bump versions
-run-name: Bump versions | ${{ github.event_name }} | branch ${{ github.ref_name }}
+run-name: Bump versions | ${{ github.run_id }} | branch - ${{ github.ref_name }}
 
 on:
   workflow_dispatch:

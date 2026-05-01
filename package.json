@@ -18,9 +18,9 @@
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
-    "@typescript-eslint/eslint-plugin": "^8.57.0",
-    "@typescript-eslint/parser": "^8.57.0",
-    "eslint": "^10.0.3",
+    "@typescript-eslint/eslint-plugin": "^8.59.1",
+    "@typescript-eslint/parser": "^8.59.1",
+    "eslint": "^10.3.0",
     "gatsby": "^5.16.1",
     "gatsby-plugin-emotion": "^8.16.0",
     "gatsby-plugin-manifest": "^5.16.0",
@@ -28,8 +28,8 @@
     "gatsby-plugin-theme-ui": "^0.17.4",
     "gatsby-plugin-typescript": "^5.16.0",
     "gatsby-source-contentful": "^8.17.0",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
     "react-helmet": "^6.1.0",
     "theme-ui": "^0.17.4"
   }

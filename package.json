@@ -20,7 +20,7 @@
     "@emotion/styled": "^11.14.1",
     "@typescript-eslint/eslint-plugin": "^8.61.1",
     "@typescript-eslint/parser": "^8.61.1",
-    "eslint": "^10.5.0",
+    "eslint": "^10.6.0",
     "gatsby": "^5.16.1",
     "gatsby-plugin-emotion": "^8.16.0",
     "gatsby-plugin-manifest": "^5.16.0",
